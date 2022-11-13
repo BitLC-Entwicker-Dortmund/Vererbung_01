@@ -30,7 +30,10 @@ namespace Vererbung_01 {
             Console.WriteLine ( einArray[1].GetName());
 
             Console.WriteLine ( einArray[2].GetName() );
-            
+            Console.WriteLine ( "====== Behandlung von Konstruktoren in C# =====");
+
+            Autofahrer af = new Autofahrer ( "Nick L.");
+            Console.WriteLine ( af.GetName());
 
             Console.ReadLine ( );
         }
